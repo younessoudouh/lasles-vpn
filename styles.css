@@ -241,6 +241,7 @@ body {
 
 .plan {
   background: rgba(246, 246, 246, .5);
+  background-image: linear-gradient(rgba(246, 246, 246, .5), #fff);
   padding-top: 80px;
   padding-bottom: 155px;
 }
@@ -761,7 +762,11 @@ body {
 
 .subscribe button {
   border: 1px solid #000000;
-  text-shadow: 3px 3px #000000 ,-3px -3px #000000;
+  text-shadow:
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;
   width: 250px;
 }
 
